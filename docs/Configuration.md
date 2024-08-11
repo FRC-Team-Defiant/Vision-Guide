@@ -16,9 +16,11 @@ It is generally recommended to connect the coprocessor to the roboRIO via wired 
 
 ### Wiring Diagram
 
-The following is the wiring diagram from WPILib
+The following is the wiring diagram from PhotonVision. It is also advised to power your network switch in the same manner.
 
-![WPILib's Wiring Diagram](../assets/img/WPILib/vision-code-on-a-coprocessor.drawio1.svg)
+![PhotonVision's Wiring Diagram](../assets/img/PhotonVision/pololu-diagram.png)
+
+A complete wiring diagram from WPI Lib can be found [here](https://docs.wpilib.org/en/stable/_images/vision-code-on-a-coprocessor.drawio1.svg)
 
 It is not advised to directly use the second ethernet port of the robot radio as it is known to be buggy (even buggier than the first one). You will need stable voltage and ampere for both your network switch and coprocessor. For appropriate powering of the coprocessor, see respective coprocessor's user manual.
 
@@ -32,7 +34,7 @@ The Connection section includes the configurations to be made in order to connec
 
 **IMPORTANT**: **DO NOT** proceed from here if you have not yet complete the `Wiring` section. The following contents are dependant to the previous sections(s).
 
-### Connecting to Coprocessor
+### Connecting to the Coprocessor
 
 After proper wiring and ensure that the coprocessor boots with PhotonVision while ensuring the ethernet connection is appropriately established. To verify the wired connection, you can try typing `nmtui` command on the coprocessor.
 
