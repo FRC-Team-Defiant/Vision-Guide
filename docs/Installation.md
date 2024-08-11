@@ -55,6 +55,8 @@ The setup will be finished after rebooting is complete
 
 After startup, visit <http://photonvision.local:5800> or <YourCoprocessorIP:5800> in your browser to access the coprocessor that is in the same LAN/WLAN network with the computer in use. One is not required to log in to use the vision server even when prompted.
 
+**Important**: If you are using a personal hotspot or other 5GHz WiFI network, your coprocessor may not be able to connect as most of them are only compatible with 2.4GHz networks.
+
 If you can access a web page that looks like a dashboard by PhotonVision, then the setup is completed.
 
 [1]: <https://docs.photonvision.org/en/latest/docs/installation/sw_install/other-coprocessors.html>
