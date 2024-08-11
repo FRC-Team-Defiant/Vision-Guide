@@ -22,6 +22,8 @@ The following is the wiring diagram from PhotonVision. It is also advised to pow
 
 A complete wiring diagram from WPI Lib can be found [here](https://docs.wpilib.org/en/stable/_images/vision-code-on-a-coprocessor.drawio1.svg)
 
+For an older version of Pi computers, power is supplied over a MicroUSB port (5V1~2A). For a newer version of Pi such as Orange Pi 5B, power is supplied via a USB-C port with maximum power of 5V4A. In both cases, you can either use a pigtail wire with USB-C/MicroUSB port or simply strip-open a power cable. Design your wiring paths and power distribution wisely to avoid sudden power outage or current overcharge.
+
 It is not advised to directly use the second ethernet port of the robot radio as it is known to be buggy (even buggier than the first one). You will need stable voltage and ampere for both your network switch and coprocessor. For appropriate powering of the coprocessor, see respective coprocessor's user manual.
 
 [PhotonVision's]:<https://docs.photonvision.org/en/latest/docs/installation/wiring.html>
