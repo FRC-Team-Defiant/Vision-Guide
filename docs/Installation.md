@@ -27,7 +27,7 @@ The solution to the installing PhotonVision should instead be using the installa
 wget https://git.io/JJrEP -O install.sh
 ```
 
-If you are in China Mainland or anywhere else that <git.io> is inaccessible, you can save the `install.sh` script in `scripts/install.sh` to your coprocessor.
+If you are in China Mainland or anywhere else where <git.io> is inaccessible, you can save the `install.sh` script in `scripts/install.sh` to your coprocessor.
 
 #### File Transmission to Coprocessor
 

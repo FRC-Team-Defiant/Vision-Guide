@@ -16,5 +16,8 @@ This guide is based on the success incorporation of PhotonVision over Orange Pi 
 
 ## Contents
 
+To get a coprocessor running PhotonVision setup for coding and robot-ready, it is advised to go through the steps as listed.
+
 - [Software Installation](docs/Installation.md)
 - [Basic Configuration](docs/Configuration.md)
+- [Camera Tuning](docs/Tuning.md)
