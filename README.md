@@ -21,3 +21,4 @@ To get a coprocessor running PhotonVision setup for coding and robot-ready, it i
 - [Software Installation](docs/Installation.md)
 - [Basic Configuration](docs/Configuration.md)
 - [Camera Tuning](docs/Tuning.md)
+- [Troubleshooting](docs/Troubleshooting.md)
